@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(138, 234, 234);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* manu style start here */
+#manu{
+    background-color: blueviolet;
+    width: auto;
+    border-radius: 5px;
+    text-align: right;
+    padding: 10px 30px;
+
+}
+#manu a{
+    text-decoration: none;
+    color: #fff;
+    background-color: aqua;
+    padding: 5px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+#manu a:hover{
+    background-color: blue;
+}
+
+/* main style start here */
+#main{
+    background-color: rgb(248, 145, 72);
+    height: 300px;
+    width: auto;
+    border-radius: 5px;
+   
+    text-align: center;
+    margin-top: 5px;
+     padding-top: 50px;
+    
+}
+#main h1{
+    font-size: 60px;
+     color: #fff;
+   
+}
+#main p{
+    font-size: 30px;
+     color: #fff;
+}
+#main a{
+    text-decoration: none;
+    color: #fff;
+    background-color: blue;
+    padding: 10px 40px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+}
+#main a:hover{
+    background-color: red;
+}
+/* pics stylr start here */
+.pics{
+    text-align: center;
+}
+.pics h1{
+    text-align: center;
+    margin-top: 20px;
+    color: blue;
+}
+.pics img{
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
